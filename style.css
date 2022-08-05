@@ -47,18 +47,20 @@ header> p{
     font-size: 0.9em;
 }
 nav{
-    height: 25px;
-    text-align: center;
-    padding-top: 7px;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.363);
     background-color: green;
-    word-spacing: 1em;
+    padding: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.404);
+    text-align: center;
+
 
 }
-nav > a{
-    background-color: rgba(0, 255, 0, 0.438);
-    padding: 3px;
-    font-weight: normal;
+nav>a{
+    text-decoration: none;
+    font-weight: bold;
+    color:var(--cor1);
+    padding: 10px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
 }
 main{
     background-color: rgb(0, 0, 0);
